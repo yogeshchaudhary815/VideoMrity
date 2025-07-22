@@ -1,0 +1,162 @@
+.container {
+  display: flex;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  padding: 0 20px;
+  background-color: #121212;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Left section */
+.navbar-left .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Center search bar */
+.navbar-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-center input {
+  width: 60%;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.navbar-center button {
+  padding: 8px 16px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.navbar-center button:hover {
+  background-color: #b20710;
+}
+
+/* Right section */
+.navbar-right {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  background-color: #1a1a1a;
+  padding-top: 20px;
+  height: calc(100vh - 64px);
+  position: sticky;
+  top: 64px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 14px 20px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.sidebar-bottom {
+  margin-bottom: 20px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+
+.video-grid-2x3 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.video-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.video-card {
+  background-color: #242424;
+  padding: 10px;
+  border-radius: 8px;
+  width: 320px;
+  transition: transform 0.2s ease;
+}
+
+.video-card:hover {
+  transform: scale(1.02);
+}
+
+.video-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.video-card h3 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.video-card p {
+  font-size: 14px;
+  color: #aaa;
+}
+.video-card .video-duration {
+  font-size: 12px;
+  color: #888;
+}
+button {
+  padding: 8px 16px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+

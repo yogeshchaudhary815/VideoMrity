@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VideoTube Clone</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+ <nav class="navbar">
+  <!-- LEFT: Logo -->
+  <div class="navbar-left">
+    <div class="logo">📺 VideoTube</div>
+  </div>
+
+  <!-- CENTER: Search Bar -->
+  <div class="navbar-center">
+    <input type="text" id="searchInput" placeholder="Search videos..." />
+    <button onclick="handleSearch()">🔍</button>
+  </div>
+
+  <!-- RIGHT: Upload & Login -->
+  <div class="navbar-right">
+    <button class="btn upload-btn">⬆️ Upload</button>
+    <button onclick="window.location.href='register.html'">Login</button>
+  </div>
+</nav>
+
+
+
+  <div class="container">
+    <!-- Sidebar -->
+   <aside class="sidebar">
+  <div class="sidebar-top">
+    <ul>
+      <li>🏠 Home</li>
+      <li>🔥 Explore</li>
+      <li>📺 Subscriptions</li>
+      <li>🎥 Library</li>
+      <li>🕓 History</li>
+    </ul>
+  </div>
+
+  <div class="sidebar-bottom">
+    <ul>
+      <li>🛠 Settings</li>
+      <li>📞 Support</li>
+    </ul>
+  </div>
+</aside>
+
+
+    <!-- Video grid -->
+  <main class="main-content">
+  <div class="video-grid-2x3">
+    <!-- Column 1 -->
+    <div class="video-column">
+      <div class="video-card">
+        <img src="https://via.placeholder.com/320x180" alt="Video 1" />
+        <h3>Video Title 1</h3>
+        <p>Channel • 1.2M views</p>
+      </div>
+      <div class="video-card">
+        <img src="https://via.placeholder.com/320x180" alt="Video 2" />
+        <h3>Video Title 2</h3>
+        <p>Channel • 800K views</p>
+      </div>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="video-column">
+      <div class="video-card">
+        <img src="https://via.placeholder.com/320x180" alt="Video 3" />
+        <h3>Video Title 3</h3>
+        <p>Channel • 500K views</p>
+      </div>
+      <div class="video-card">
+        <img src="https://via.placeholder.com/320x180" alt="Video 4" />
+        <h3>Video Title 4</h3>
+        <p>Channel • 900K views</p>
+      </div>
+    </div>
+
+    <!-- Column 3 -->
+    <div class="video-column">
+      <div class="video-card">
+        <img src="https://via.placeholder.com/320x180" alt="Video 5" />
+        <h3>Video Title 5</h3>
+        <p>Channel • 200K views</p>
+      </div>
+      <div class="video-card">
+        <img src="https://via.placeholder.com/320x180" alt="Video 6" />
+        <h3>Video Title 6</h3>
+        <p>Channel • 600K views</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
