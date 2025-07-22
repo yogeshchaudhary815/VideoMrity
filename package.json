@@ -1,0 +1,23 @@
+{
+  "name": "videomrity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogeshchaudhary815/VideoMrity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yogeshchaudhary815/VideoMrity/issues"
+  },
+  "homepage": "https://github.com/yogeshchaudhary815/VideoMrity#readme",
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
