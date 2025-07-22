@@ -6,17 +6,16 @@ function showForm(type) {
   const registerTab = document.getElementById("registerTab");
 
   if (type === "login") {
-    loginForm.classList.remove("hidden");
-    registerForm.classList.add("hidden");
-    loginTab.classList.add("active");
-    registerTab.classList.remove("active");
+    loginForm.classList.remove("hidden");   // login form visible
+    registerForm.classList.add("hidden");   // register form hide
+    loginTab.classList.add("active");        // login button highlight
+    registerTab.classList.remove("active");  // register button normal
   } else {
     loginForm.classList.add("hidden");
     registerForm.classList.remove("hidden");
     loginTab.classList.remove("active");
     registerTab.classList.add("active");
-  }
-  
+  }  
 }
 const registerForm = document.getElementById("registerForm");
 
